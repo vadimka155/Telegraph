@@ -5,8 +5,8 @@
     --text-main-color: rgba(255, 255, 255, 0.55);
     --background-blue: rgba(0, 25, 74, 1);
     --white: rgba(255, 255, 255, 1);
+    --black: rgba(0, 25, 74, 1);
 }
-
 
 
 
@@ -88,6 +88,149 @@ opacity: 0px;
 
 
 }
+
+
+/*===================================================SECTION(1)=================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================================SECTION(2)=================================*/
+
+.android-iphone{
+    width: 60px;
+    height: 60px;
+}
+
+
+.mac-windows{
+    width: 102px;
+    height: 43px;
+
+
+}
+
+.download-download{
+    width: 21px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================================SECTION(3)=================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================================SECTION(4)=================================*/
+
+.stuff{
+
+   align-items: center;
+}
+
+
+
+
+
+.sharing{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--black);
+}
+
+
+
+.sharing-text{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: var(--black);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.stuff-img{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
+
+
+
 
 
 
