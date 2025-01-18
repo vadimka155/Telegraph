@@ -22,7 +22,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
-
+background-color: rgba(245, 245, 245, 0.897);
     
 }
 
@@ -223,6 +223,130 @@ opacity: 0px;
     width: 60px;
     height: 60px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-list-item {
+    width: 392px;
+    padding: 33px;
+    height: 294px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: var(--backgroud-color);
+    border: 1.5px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+
+
+.card-list-item:hover {
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(40, 48, 54, 0.60);
+    background-image: radial-gradient(ellipse at top right, rgba(254, 135, 84, 0.307), rgba(255, 255, 255, 0) 25%);
+    backdrop-filter: blur(100px);
+    transform: translateY(-20px);
+    transition: 0.3s;
+}
+
+
+
+.card-list-item:hover h3 {
+    color: rgba(255, 255, 255, 90%);
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    
+    
+    
+
+    
+    
+    .card-list-item:hover p {
+        color: rgba(255, 255, 255, 78%);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.8;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+.position-list{
+    display: flex;
+}
+.position{
+    width: 200px;
+    height: 200px;
+}
+
+.position:nth-child(1){
+background-color: red;
+
+position: static;
+/* position: static;---позиція за змовчуванням*/
+}
+.position:nth-child(2){
+    background-color: lime;
+
+
+    position: relative;
+    /*position: relative;---відносне позицінування,може зміщуватись у різні сторони 
+    відносно батькаале простір від нього не зникає*/
+}
+
+.position:nth-child(3){
+    background-color: blue;
+
+    position: absolute; 
+    /*position: absolute; --- */
+}
+
+.position:nth-child(4){
+    background-color: aqua;
+
+
+    position: fixed;
+    /*position: fixed;---*/
+}
+
+.position:nth-child(5){
+    background-color: yellow;
+
+    position: static;
+    /*position: static;---*/
+}
+
+
+
+
+
+
 
 
 
