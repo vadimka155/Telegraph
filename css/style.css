@@ -357,6 +357,52 @@ position: static;
 
 
 
+.section > h2{
+    background-color: lime;
+    position: sticky;
+top: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
